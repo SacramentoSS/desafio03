@@ -1,0 +1,125 @@
+htm, body {
+
+   margin: 0%;   
+
+}
+
+#imagem_fundo {
+
+    background: url("fundo.jpg"); 
+    text-align: center;    
+    background-size: cover;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+#titulo {
+    color: white;
+    padding-top: 300px;
+    font-size: 70px;
+}
+
+#subtitulo {
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+#projeto {    
+    padding: 20px;
+    background-color: #b3ecff;
+    text-align: center;
+
+}
+
+#metas {  
+      
+    padding: 20px;
+} 
+
+.red {
+    color: red;
+}
+
+#imagem {
+    display:table-cell;
+    float: left;
+    padding-bottom: 50px;    
+}
+#texto {
+    display:table-cell;
+    float: left;
+    width: 800px;
+    padding-top: 30px;
+}
+
+footer{  
+    clear: both;
+    text-align: center;
+    background-color: #b3ecff;    
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    body{
+
+        width: 768px;
+        
+      }
+
+    #imagem_fundo {
+
+       background: url("fundo.jpg") 80%; 
+       text-align: center;         
+
+    }
+
+    #titulo{
+
+        padding-top: 1%;       
+
+    }
+
+    #metas{
+
+        text-align: center;
+        padding-left: 30%;
+        width: 50vw;
+        margin: none;
+    }
+
+    #texto{
+
+      text-align: justify right;
+      float: none;
+
+    }
+
+    #imagem{
+
+       float: none;
+
+    }
+
+    #projeto{
+     
+      background-color: none;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;      
+      
+
+    }
+
+    #frame{
+
+       width: auto;      
+
+    }    
+       
+}
+  
